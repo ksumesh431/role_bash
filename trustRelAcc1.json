@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Deny",
+      "Principal": {
+        "Service": "ec2.amazonaws.com",
+        "AWS": [
+          "arn:aws:iam::000699977340:role/AmazonSSMRoleForInstancesQuickSetup"
+        ]
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
+}
